@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);
 
     private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
